@@ -5,7 +5,7 @@ class DependencyInjection extends Bindings {
   void dependencies() {
 
 
-    // 🔥Lazy initialization🔥 - instance তৈরি হবে যখন প্রয়োজন হবে
+
     // Get.lazyPut(() => HomeController(), fenix: true);
   }
 }
