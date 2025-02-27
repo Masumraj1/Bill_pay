@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:mobile_bill/app/controllers/auth_controller.dart';
 
 class DependencyInjection extends Bindings {
   @override
@@ -6,6 +7,6 @@ class DependencyInjection extends Bindings {
 
 
 
-    // Get.lazyPut(() => HomeController(), fenix: true);
+    Get.lazyPut(() => AuthController(), fenix: true);
   }
 }
